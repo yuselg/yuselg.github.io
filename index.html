@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>yuselg</title>
-    <meta name="description" content="yuselg — notes and projects." />
+    <meta name="description" content="yuselg — curated links and notes." />
     <style>
       :root { color-scheme: light dark; }
       body{
@@ -12,13 +12,15 @@
         font: 18px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       }
       .wrap{
-        max-width: 820px;
+        max-width: 860px;
         margin: 0 auto;
         padding: 28px 16px 56px;
       }
-      header{ padding: 10px 0 6px; }
-      h1{ font-size: clamp(32px, 5vw, 46px); margin: 6px 0 6px; }
-      p{ margin: 10px 0; }
+      h1{
+        font-size: clamp(32px, 5vw, 46px);
+        margin: 8px 0 6px;
+      }
+      .muted{ opacity: .78; }
       .grid{
         display:grid;
         gap:12px;
@@ -30,41 +32,28 @@
         border-radius: 14px;
         padding: 14px 14px 12px;
       }
-      .card a{ font-weight: 600; text-decoration: none; }
-      .muted{ opacity: .78; }
-      footer{ margin-top: 28px; font-size: 14px; opacity: .7; }
+      .card a{ font-weight: 700; text-decoration: none; }
       a:hover{ text-decoration: underline; }
+      footer{ margin-top: 28px; font-size: 14px; opacity: .7; }
     </style>
   </head>
   <body>
     <div class="wrap">
-      <header>
-        <h1>yuselg</h1>
-        <p class="muted">Welcome. This is the landing page.</p>
-      </header>
+      <h1>yuselg</h1>
+      <p class="muted">Browse the library by category.</p>
 
       <section class="grid">
-        <div class="card">
-          <a href="/docs/">Notes / Docs</a>
-          <p class="muted">Longer writing (Jekyll or MkDocs).</p>
-        </div>
-
-        <div class="card">
-          <a href="https://github.com/yuselg">GitHub</a>
-          <p class="muted">Projects and source code.</p>
-        </div>
-
-        <!-- Optional: add more cards -->
-        <!-- <div class="card"><a href="/about/">About</a><p class="muted">Who I am.</p></div> -->
+        <div class="card"><a href="/docs/">Library (all)</a><div class="muted">Searchable MkDocs site.</div></div>
+        <div class="card"><a href="/docs/torah/">Torah</a><div class="muted">Texts, notes, and links.</div></div>
+        <div class="card"><a href="/docs/philosophy/">Philosophy</a><div class="muted">Essays and references.</div></div>
+        <div class="card"><a href="/docs/science/">Science</a><div class="muted">Scientific notes and sources.</div></div>
+        <div class="card"><a href="/docs/tech/">Tech</a><div class="muted">Technical writing and code.</div></div>
+        <div class="card"><a href="/docs/misc/">Misc</a><div class="muted">Everything else.</div></div>
+        <div class="card"><a href="https://github.com/yuselg">GitHub</a><div class="muted">Projects and code.</div></div>
       </section>
 
-      <footer>
-        <p>© <span id="y"></span> yuselg</p>
-      </footer>
+      <footer>© <span id="y"></span> yuselg</footer>
     </div>
-
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
   </body>
 </html>
