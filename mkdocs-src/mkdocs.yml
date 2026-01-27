@@ -1,0 +1,24 @@
+site_name: yuselg
+site_url: https://yuselg.github.io/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Torah: torah.md
+  - Philosophy: philosophy.md
+  - Science: science.md
+  - Tech: tech.md
+  - Misc: misc.md
