@@ -1,5 +1,7 @@
 # Library
 
+[← Back to main site](https://yuselg.github.io/)
+
 Use the sidebar to browse:
 
 - Torah
