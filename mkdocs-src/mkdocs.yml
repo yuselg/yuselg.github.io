@@ -1,6 +1,9 @@
 site_name: yuselg
 site_url: https://yuselg.github.io/docs/
 
+docs_dir: docs
+site_dir: ../docs
+
 theme:
   name: material
   palette:
