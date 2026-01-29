@@ -4,10 +4,13 @@
 
 Use the sidebar to browse:
 
-- Torah
-- Philosophy
-- Science
-- Tech
-- Misc
+# Library
 
-This site is a curated index of documents and notes.
+Browse by category:
+
+- [Torah](torah.md)
+- [Philosophy](philosophy.md)
+- [Science](science.md)
+- [Tech](tech.md)
+- [Misc](misc.md)
+
