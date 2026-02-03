@@ -20,8 +20,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Torah: torah.md
-  - Philosophy: philosophy.md
-  - Science: science.md
-  - Tech: tech.md
-  - Misc: misc.md
+  - Links: links/index.md
+  - Misc: misc/index.md
+
+plugins:
+  - search
+  - blog:
+      blog_dir: links
+  - tags

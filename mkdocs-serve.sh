@@ -4,7 +4,9 @@
 set -euo pipefail
 
 PORT=8000
-URL="http://127.0.0.1:$PORT/docs/"
+# URL="http://127.0.0.1:$PORT/docs/"
+URL="http://127.0.0.1:$PORT/"
+
 
 # Must be run from pages/
 if [ ! -f mkdocs-src/mkdocs.yml ]; then

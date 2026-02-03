@@ -2,12 +2,10 @@
 
 [← Back to main site](https://yuselg.github.io/)
 
+## Browse
 
-Browse by category:
+- **[Links](links/index.md)**  
+  A date-ordered stream of annotated readings and publications.
 
-- [Torah](torah.md)
-- [Philosophy](philosophy.md)
-- [Science](science.md)
-- [Tech](tech.md)
-- [Misc](misc.md)
-
+- **[Misc](misc/index.md)**  
+  Independent notes and posts not part of the Links stream.

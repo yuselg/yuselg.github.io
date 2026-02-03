@@ -5,57 +5,129 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>yuselg</title>
     <meta name="description" content="yuselg — curated links and notes." />
+
+    <!-- Optional: nicer link previews -->
+    <meta property="og:title" content="yuselg" />
+    <meta property="og:description" content="Curated links and notes." />
+    <meta property="og:type" content="website" />
+
     <style>
-      :root { color-scheme: light dark; }
+      :root {
+        color-scheme: light dark;
+        --border: rgba(127,127,127,.35);
+        --bg-soft: rgba(127,127,127,.08);
+        --radius: 16px;
+      }
       body{
         margin:0;
         font: 18px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        text-rendering: optimizeLegibility;
       }
       .wrap{
-        max-width: 860px;
+        max-width: 920px;
         margin: 0 auto;
         padding: 28px 16px 56px;
+      }
+      header{
+        margin-bottom: 14px;
       }
       h1{
         font-size: clamp(32px, 5vw, 46px);
         margin: 8px 0 6px;
+        letter-spacing: -0.01em;
       }
       .muted{ opacity: .78; }
+
+      .cta{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 14px;
+        padding: 10px 14px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 650;
+      }
+      .cta:hover{ text-decoration: none; background: var(--bg-soft); }
+      .cta:focus-visible{
+        outline: 3px solid rgba(56,139,253,.55);
+        outline-offset: 3px;
+      }
+
       .grid{
         display:grid;
         gap:12px;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         margin-top: 18px;
       }
       .card{
-        border: 1px solid rgba(127,127,127,.35);
-        border-radius: 14px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
         padding: 14px 14px 12px;
+        background: transparent;
       }
-      .card a{ font-weight: 700; text-decoration: none; }
-      a:hover{ text-decoration: underline; }
-      footer{ margin-top: 28px; font-size: 14px; opacity: .7; }
+      .card a{
+        display: block;
+        text-decoration: none;
+        font-weight: 750;
+        margin-bottom: 6px;
+      }
+      .card a:hover{ text-decoration: underline; }
+      .card a:focus-visible{
+        outline: 3px solid rgba(56,139,253,.55);
+        outline-offset: 4px;
+        border-radius: 10px;
+      }
+
+      footer{
+        margin-top: 28px;
+        font-size: 14px;
+        opacity: .7;
+      }
+
+      /* Improve tap targets on mobile */
+      @media (max-width: 480px){
+        body{ font-size: 17px; }
+        .wrap{ padding: 22px 14px 44px; }
+        .card{ padding: 16px 14px; }
+      }
     </style>
   </head>
+
   <body>
-  <div class="wrap">
-    <h1>yuselg</h1>
-    <p class="muted">Browse the library by category.</p>
+    <div class="wrap">
+      <header>
+        <h1>yuselg</h1>
+        <p class="muted">Curated links and notes.</p>
 
-    <section class="grid">
-      <div class="card"><a href="/docs/">Library (all)</a><div class="muted">Searchable MkDocs site.</div></div>
-      <div class="card"><a href="/docs/torah/">Torah</a><div class="muted">Texts, notes, and links.</div></div>
-      <div class="card"><a href="/docs/philosophy/">Philosophy</a><div class="muted">Essays and references.</div></div>
-      <div class="card"><a href="/docs/science/">Science</a><div class="muted">Scientific notes and sources.</div></div>
-      <div class="card"><a href="/docs/tech/">Tech</a><div class="muted">Technical writing and code.</div></div>
-      <div class="card"><a href="/docs/misc/">Misc</a><div class="muted">Everything else.</div></div>
-    </section>
+        <a class="cta" href="/docs/" aria-label="Open the library">
+          Open library <span aria-hidden="true">→</span>
+        </a>
+      </header>
 
-    <footer>© <span id="y"></span> yuselg</footer>
-  </div>
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
-</body>
+      <section class="grid" aria-label="Sections">
+        <div class="card">
+          <a href="/docs/">Library</a>
+          <div class="muted">Searchable MkDocs library home.</div>
+        </div>
+
+        <div class="card">
+          <a href="/docs/links/">Links</a>
+          <div class="muted">Date-ordered annotated readings.</div>
+        </div>
+
+        <div class="card">
+          <a href="/docs/misc/">Misc</a>
+          <div class="muted">Independent notes and posts.</div>
+        </div>
+      </section>
+
+      <footer>© <span id="y"></span> yuselg</footer>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
-
