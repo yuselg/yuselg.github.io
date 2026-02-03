@@ -8,3 +8,5 @@ external_url: https://docs.google.com/document/d/e/2PACX-1vSG6AskF6ourbCwVUZc2ak
 ---
 
 **Read:** [Finding God Underground](https://docs.google.com/document/d/e/2PACX-1vSG6AskF6ourbCwVUZc2akP-jdmqSlI8kmAsVlydQV4VWhXgCyEp4P7sDIin4eVQxwTdCAoVSEg7Z-k/pub)
+
+Suffering and redemption, in the aftermath of the pogrom of 7 October, 2023.
