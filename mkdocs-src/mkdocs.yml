@@ -22,6 +22,8 @@ nav:
   - Home: index.md
   - Links: links/index.md
   - Misc: misc/index.md
+  - Tags: tags.md
+
 
 plugins:
   - search
