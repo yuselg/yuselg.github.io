@@ -11,5 +11,8 @@ Contemporary AI systems only *appear* intelligent.
 
 **Read:** [AI is an Affectation of Intelligence](https://docs.google.com/document/d/e/2PACX-1vQsEzF9ejg3KSGsLBzQT9_dGrfehvQy3iesVCGQmPgpZinssCUKN2Gry8DLD6tO2id10RiCw18qLdgq/pub)
 
+<!-- more -->
+
+A continuation of *The Illusion of Artificial Intelligence*, applying the concept of idolatry to AI and emphasizing that seemingly intelligent systems are ultimately human-made artifacts—machines devoid of understanding, agency, or awareness.
 
 
