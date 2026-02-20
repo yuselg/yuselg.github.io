@@ -1,0 +1,1 @@
+- [LLM](llm.md) AI Speed without understanding

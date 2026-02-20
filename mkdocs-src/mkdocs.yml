@@ -1,7 +1,7 @@
 site_name: yuselg
 site_url: https://yuselg.github.io/docs/
 
-docs_dir: docs
+# docs_dir: docs
 site_dir: ../docs
 
 theme:
@@ -11,7 +11,7 @@ theme:
       primary: blue
       accent: blue
   features:
-    - navigation.sections
+    # - navigation.sections
     - navigation.expand
     - navigation.instant
     - toc.integrate
@@ -21,7 +21,9 @@ theme:
 nav:
   - Home: index.md
   - Links: links/index.md
-  - Misc: misc/index.md
+  - Misc:
+    - Overview: misc/index.md
+    - LLM: misc/llm.md
   - Tags: tags.md
 
 
