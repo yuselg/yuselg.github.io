@@ -1,6 +1,6 @@
 ---
 title: AI Speed without Understanding
-date: 2026-01-22
+date: 2026-01-29
 tags:
   - ai
   - mind
