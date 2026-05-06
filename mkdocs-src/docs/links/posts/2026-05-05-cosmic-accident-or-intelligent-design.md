@@ -20,8 +20,9 @@ Are we a cosmic accident? While the public school system still teaches that we a
     allowfullscreen>
   </iframe>
 </div>
-
 **Read:** [Cosmic Accident or Intelligent Design?](https://docs.google.com/document/d/e/2PACX-1vQ4VwS9Nb75_o5HtT5OkKcjf8bKEmhq4MCZX1_aY7tNGrt9bgVD9Mch62X6gkq8apUbiUTY4EwCsBSP/pub)
+
+**View on google slide**: [Cosmic Accident or Intelligent Design?](https://docs.google.com/presentation/d/e/2PACX-1vTYFWF4T-1xK4YCByh3Z3d5cSQOVLIXsh-WWAobqJUhWPDQKIihsfRYR7E_vP6EwcLuS8wj4CrCNF0C/pub?)
 
 <!-- more -->
 
